@@ -58,7 +58,7 @@ docker build -t myimage:v1 .
 ```
 <img width="1165" height="440" alt="Screenshot 2025-09-15 235839" src="https://github.com/user-attachments/assets/7e4631ba-b225-4d29-b7b9-52e9373ce8bb" />
 
-
+```
 **Build from a specific file and directory:**
 
 ```bash
