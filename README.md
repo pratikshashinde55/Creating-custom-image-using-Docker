@@ -19,7 +19,7 @@ In this method:
 1. Start a container from a base image.
 2. Make your required changes inside the container (e.g., install software, change settings).
 3. Create a new image from that modified container.
-<img width="725" height="159" alt="Screenshot 2025-09-15 235053" src="https://github.com/user-attachments/assets/3340716c-4934-4789-9cd0-5f99d4da7c93" />
+
 
 **Example:**
 
@@ -29,6 +29,7 @@ In this method:
 ```bash
 docker commit commit1 myos1:v1
 ```
+<img width="725" height="159" alt="Screenshot 2025-09-15 235053" src="https://github.com/user-attachments/assets/3340716c-4934-4789-9cd0-5f99d4da7c93" />
 <img width="988" height="81" alt="Screenshot 2025-09-15 235247" src="https://github.com/user-attachments/assets/8241d6d2-2fb8-4a84-9ce1-fed1af725d5d" />
 
 * Run a container from the custom image:
@@ -61,7 +62,7 @@ docker build -t myimage:v1 .
 **Build from a specific file and directory:**
 
 ```bash
-docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/
+docker build -t myimage:v1 -f myYmlcode /mybuildcode/
 ```
 
 **Explanation:**
@@ -77,13 +78,6 @@ docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/
 * `FROM` → Specifies the base image.
 * `RUN` → Executes commands during the image build (e.g., installing packages).
 
-> Always use non-interactive commands in Dockerfiles. For example:
-
-```Dockerfile
-RUN yum install httpd -y
-```
-
----
 
 ### **Build and Run Custom Image**
 
