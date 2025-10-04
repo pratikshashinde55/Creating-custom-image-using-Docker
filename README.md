@@ -62,7 +62,7 @@ docker build -t myimage:v1 .
 **Build from a specific file and directory:**
 
 ```bash
-docker build -t myimage:v1 -f myYmlcode /mybuildcode/
+example;  docker build -t myimage:v1 -f myYmlcode /mybuildcode/
 ```
 
 **Explanation:**
