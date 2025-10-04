@@ -12,7 +12,7 @@ Custom images are used when containers require multiple specific configurations,
 
 ### **Two Methods to Create a Custom Docker Image**
 
-### **Method 1 – Using `docker-commit` Command**
+### **Method 1 – Using `docker commit` Command**
 
 In this method:
 
