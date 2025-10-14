@@ -105,11 +105,11 @@ docker build -t myapp:latest.
 
 ***Now push created image to docker hub:***
 
-Go to Docker Hub registry->create account->go to registry->create registry as "myapp"
-<img width="1858" height="494" alt="Screenshot 2025-10-14 212739" src="https://github.com/user-attachments/assets/c9d1b6dd-37e3-4c52-9403-47b4b376703d" />
+Go to Docker Hub registry->create account->go to repository->create repository as "myapp"
 
 1.Docker login->Provide username and password.
 <img width="1872" height="369" alt="Screenshot 2025-10-14 211928" src="https://github.com/user-attachments/assets/d80887b5-14d0-44af-9438-e7f7ca5fd195" />
+
 2.
 Look for image and tag it 
 
