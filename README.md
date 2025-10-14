@@ -88,9 +88,10 @@ example;  docker build -t myimage:v1 -f myYmlcode /mybuildcode/
 * **Build the image from Dockerfile:**
 
 ```bash
-docker build -t myimage:v1 .
+docker build -t myapp:latest.
 ```
-<img width="790" height="132" alt="Screenshot 2025-09-15 235831" src="https://github.com/user-attachments/assets/5eb8316d-4d9f-4973-a632-5bc65ceab29f" />
+<img width="1414" height="457" alt="Screenshot 2025-10-14 211730" src="https://github.com/user-attachments/assets/96d0a72d-9366-4cd5-8458-26d4da39f608" />
+
 
 * **Run a container from the custom image:**
 
