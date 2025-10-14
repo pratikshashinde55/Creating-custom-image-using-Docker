@@ -50,13 +50,18 @@ This is a code-based, fully automated method to create custom images using a **D
 #### **Dockerfile**
 
 A plain text file containing instructions to build an image.
+Create Dockerfile:
+
+<img width="431" height="378" alt="Screenshot 2025-10-14 211743" src="https://github.com/user-attachments/assets/4172a92d-a6ab-471c-9e35-5bddcb48080a" />
+<img width="519" height="110" alt="Screenshot 2025-10-14 210857" src="https://github.com/user-attachments/assets/46a572c1-43b0-4b51-8f18-4dd42ab1dc49" />
 
 **Example build command (from current directory):**
 
 ```bash
-docker build -t myimage:v1 .
+docker build -t myapp:latest
 ```
-<img width="1165" height="440" alt="Screenshot 2025-09-15 235839" src="https://github.com/user-attachments/assets/7e4631ba-b225-4d29-b7b9-52e9373ce8bb" />
+<img width="1414" height="457" alt="Screenshot 2025-10-14 211730" src="https://github.com/user-attachments/assets/9d5b2d99-b956-4d0f-a99a-6b7699aee3b9" />
+
 
 **Build from a specific file and directory:**
 
@@ -90,12 +95,36 @@ docker build -t myimage:v1 .
 * **Run a container from the custom image:**
 
 ```bash
-docker run -it --name myos1 myimage:v1
+ docker run myapp
 ```
-<img width="1679" height="143" alt="Screenshot 2025-09-15 235949" src="https://github.com/user-attachments/assets/99b03dfc-3d3a-49f9-ab14-c577e39072c5" />
+<img width="730" height="157" alt="Screenshot 2025-10-14 211828" src="https://github.com/user-attachments/assets/7e7afb19-49b5-44fd-a145-72dff8456104" />
 
 
 ---
+
+***Now push created image to docker hub:***
+
+Go to Docker Hub registry->create account->go to registry->create registry as "myapp"
+<img width="1858" height="494" alt="Screenshot 2025-10-14 212739" src="https://github.com/user-attachments/assets/c9d1b6dd-37e3-4c52-9403-47b4b376703d" />
+
+1.Docker login->Provide username and password.
+<img width="1872" height="369" alt="Screenshot 2025-10-14 211928" src="https://github.com/user-attachments/assets/d80887b5-14d0-44af-9438-e7f7ca5fd195" />
+2.
+Look for image and tag it 
+
+docker images
+
+docker tag myapp:latest pratikshash67/myapp:latest
+
+<img width="904" height="292" alt="Screenshot 2025-10-14 212116" src="https://github.com/user-attachments/assets/121bd675-e523-4b85-bd8d-3fdf610700f6" />
+3.Push the image to Dockerhub registry
+
+docker push pratikshash67/myapp:latest
+<img width="904" height="292" alt="Screenshot 2025-10-14 212116" src="https://github.com/user-attachments/assets/8f9830d8-3b11-4a39-9df6-9971ca38b540" />
+
+<img width="1116" height="270" alt="Screenshot 2025-10-14 213523" src="https://github.com/user-attachments/assets/6dcaf406-cbf5-46bd-aafe-1dde5b42d3a3" />
+
+<img width="1882" height="753" alt="image" src="https://github.com/user-attachments/assets/f2e9e5e6-0384-4c2f-a7fb-76da446d8a8a" />
 
 ### **About**
 
