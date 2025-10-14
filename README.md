@@ -44,8 +44,8 @@ docker run -it --name mycontainer myos1:v1
 ### **Method 2 – Using Dockerfile (`docker build`)**
 
 This is a code-based, fully automated method to create custom images using a **Dockerfile**.
-<img width="642" height="238" alt="Screenshot 2025-09-15 235720" src="https://github.com/user-attachments/assets/dcee6932-9cb0-40b1-adb9-7a8f198b7022" />
-<img width="539" height="437" alt="Screenshot 2025-09-15 235659" src="https://github.com/user-attachments/assets/a69befcf-903c-4fd6-abe9-d2a8797eaa80" />
+<img width="392" height="133" alt="Screenshot 2025-10-14 210842" src="https://github.com/user-attachments/assets/2a1d6a75-c3a4-44a0-8095-cf9e8a9b77a4" />
+
 
 #### **Dockerfile**
 
