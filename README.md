@@ -120,10 +120,15 @@ docker images
 docker tag myapp:latest pratikshash67/myapp:latest
 ```
 <img width="904" height="292" alt="Screenshot 2025-10-14 212116" src="https://github.com/user-attachments/assets/121bd675-e523-4b85-bd8d-3fdf610700f6" />
+
+
+
 3.Push the image to Dockerhub registry
+
 ```bash
 docker push pratikshash67/myapp:latest
 ```
+
 <img width="904" height="292" alt="Screenshot 2025-10-14 212116" src="https://github.com/user-attachments/assets/8f9830d8-3b11-4a39-9df6-9971ca38b540" />
 
 <img width="1116" height="270" alt="Screenshot 2025-10-14 213523" src="https://github.com/user-attachments/assets/6dcaf406-cbf5-46bd-aafe-1dde5b42d3a3" />
